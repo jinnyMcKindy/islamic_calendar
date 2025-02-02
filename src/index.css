@@ -1,0 +1,148 @@
+/* Global fonts */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+/* Islamic heading and labels fonts */
+h1, h2, .islamic-text {
+  font-family: 'Amiri', serif; /* or Scheherazade */
+  font-size: 1.5rem;
+  color: #2e8b57;
+}
+
+.islamic-pattern {
+  background-image: url('assets/golden-islamic-pattern-free-png.webp');
+  background-size: cover;
+  padding: 2rem;
+  border-radius: 8px;
+  min-height: 100vh;
+}
+
+/* Main container */
+.p-4 {
+  padding: 1rem;
+}
+
+/* Heading styles */
+h1 {
+  font-family: 'Scheherazade', serif;
+  color: #2e8b57;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-family: 'Scheherazade', serif;
+  color: #2e8b57;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Buttons and inputs */
+.btn-green {
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.btn-green:hover {
+  background-color: #4CAF50;
+}
+
+.btn-green:focus {
+  outline: none;
+}
+
+/* Popup */
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-white {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Islamic-style text */
+.islamic-text {
+  font-family: 'Amiri', serif;
+  font-size: 1.25rem;
+  color: #d4af37;
+}
+
+/* Card for prayer times */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* List item style */
+li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Trial status text */
+.text-green-500 {
+  color: #38a169;
+}
+
+/* Subscription button */
+.bg-green-500 {
+  background-color: #38a169;
+}
+
+.bg-green-500:hover {
+  background-color: #2f7c4d;
+}
+
+/* Confirmation popup */
+.mt-4 {
+  margin-top: 1rem;
+}
+
+/* Add these to your styles.css */
+.react-calendar {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+.react-calendar__tile {
+  background-color: #f9f9f9;
+}
+
+.react-calendar__tile:focus {
+  background-color: #007bff;
+  color: white;
+}
+
+.react-calendar__tile--active {
+  background-color: #4caf50;
+  color: white;
+}
